@@ -1,3 +1,11 @@
 .hidden {
     display: none;
 }
+
+.big {
+    font-size: larger;
+}
+h1 {
+    font-family: Abyssinica SIL, serif;
+}
+
