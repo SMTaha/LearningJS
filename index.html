@@ -1,15 +1,18 @@
 <!DOCTYPE html>
+<!--suppress HtmlFormInputWithoutLabel -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css" >
     <title>Title</title>
 </head>
 <body>
     <form onsubmit="checkSubmission();">
-        Email:<br>
-        <label for="email"><input type="email" id="email" value=""></label>
-        <input type="submit" id="submit" value="Submit">
+        Enter your name and press submit:<br>
+        <input type="email" id="email" value=""><br><br>
+        <input type="submit" id="submit" onfocus="focused();" onmouseover="focused();" value="Submit">
     </form>
+    <h1 id="heading" onclick="makeInvisible();">Hidden</h1>
     <script src="app.js"></script>
 </body>
 </html>
